@@ -1,0 +1,21 @@
+{
+  "eval_metrics": {
+    "Precision@10": 0.0123,
+    "Recall@10": 0.0585,
+    "NDCG@10": 0.0558,
+    "HitRate@10": 0.117,
+    "Precision@20": 0.0104,
+    "Recall@20": 0.1012,
+    "NDCG@20": 0.0959,
+    "HitRate@20": 0.1894
+  },
+  "model": "gbdt",
+  "funnel": {
+    "exposures": 199629,
+    "ctr": 0.2016,
+    "complete_rate": 0.3861,
+    "like_rate": 0.1631
+  },
+  "recall_candidates": 100,
+  "k": 10
+}

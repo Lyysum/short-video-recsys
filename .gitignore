@@ -1,0 +1,14 @@
+# 生成的原始数据与数仓（由 run_all.py 复现，不入库）
+data/raw/*.csv
+data/warehouse/*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 日志
+*.log
